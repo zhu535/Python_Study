@@ -8,7 +8,7 @@
 name_list = ["张三", "李四", "王五", "张三"]
 number_list = [6, 8, 1, 4, 10]
 
-# len()方法获取列表的长度啊
+# len()方法获取列表的长度哈哈
 list_len = len(name_list)
 print("列表的长度为%d" % list_len)
 
