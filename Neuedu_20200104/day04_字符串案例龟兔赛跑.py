@@ -73,6 +73,6 @@ while True:
         print(row)
 
 if rpos >= 70:
-    print("兔子获胜")
+    print("兔子获胜！")
 else:
-    print("乌龟获胜")
+    print("乌龟获胜！")
