@@ -15,3 +15,10 @@ print(etc)      # 不存在
 # 修改操作
 dict2["小明"] = 96
 print(dict2)        # {'小明': 96, '小红': 100, '小王': 60}
+
+# .setdefault()方法，通过键获取值，如果键不存在，则为列表新增一个键值对
+exm = dict2.setdefault("小明", 90)
+print(exm)  # 96
+
+exm1 = dict2.setdefault("小猪", 100)
+print(dict2)    # {'小明': 96, '小红': 100, '小王': 60, '小猪': 100}
