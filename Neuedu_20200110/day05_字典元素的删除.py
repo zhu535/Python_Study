@@ -19,3 +19,7 @@ print(dict2)    # {'小明': 98}
 # .clear()清空字典
 dict2.clear()
 print(dict2)    # {}
+
+# del 删除字典
+del dict2
+# print(dict2) 报错
