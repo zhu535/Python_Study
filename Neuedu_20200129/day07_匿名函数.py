@@ -6,4 +6,8 @@
 
 
 func = lambda n:n*n
-print(func(4))
+print(func(4))  # 16
+
+# 带条件的匿名函数
+cale = lambda x,y:x*y if x > y else x/y
+print(cale(4,3))    # 12
