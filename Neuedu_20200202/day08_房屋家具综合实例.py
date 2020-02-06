@@ -52,6 +52,7 @@ print(table)
 
 house1 = House("两房一厅", 100)
 house1.add_item(bed)
+house1.add_item(bed)
 house1.add_item(chest)
 house1.add_item(table)
 
