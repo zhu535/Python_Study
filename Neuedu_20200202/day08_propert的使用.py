@@ -30,11 +30,11 @@ class Girl:
     def __init__(self, weight):
         self.__weight = weight
 
-    @ property
+    @property
     def weight(self):
         print("我的体重是%s" % self.__weight)
 
-    @ weight.setter
+    @weight.setter
     def weight(self, weight):
         self.__weight = weight
 
